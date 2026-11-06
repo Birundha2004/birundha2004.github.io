@@ -1,4 +1,3 @@
-import { ShieldCheck } from "lucide-react";
 import { caseStudy } from "../data/content";
 import Reveal from "./Reveal";
 
@@ -8,10 +7,6 @@ export default function CaseStudy() {
       <Reveal>
         <p className="chip mb-3">{caseStudy.badge}</p>
         <h2 className="section-title">{caseStudy.title}</h2>
-        <p className="mt-4 flex max-w-3xl gap-2 text-sm text-muted">
-          <ShieldCheck size={18} className="mt-0.5 shrink-0 text-cyan" aria-hidden />
-          <span>{caseStudy.disclaimer}</span>
-        </p>
         <ul className="mt-5 flex flex-wrap gap-2" aria-label="Technologies">
           {caseStudy.tech.map((t) => (
             <li key={t} className="chip">

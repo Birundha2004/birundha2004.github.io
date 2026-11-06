@@ -127,8 +127,6 @@ export const caseStudy = {
     "SQLite",
     "LLM integrations",
   ],
-  disclaimer:
-    "This work was done as part of my role at Sree Karuviyiyal on production systems. It is presented as a case study: there is no public repository or live demo, and no company code, credentials, internal endpoints, customer records or confidential screenshots are shown.",
   capabilities: [
     {
       id: "A",
